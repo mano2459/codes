@@ -110,14 +110,16 @@ a = int (input("enter the element:"))
 t+= a,
 print (t)'''
 
-'''#8WAP TO ENTER THE MULTIPLE ELEMENT IN AN EMPTY TUPLE.
-
-t=()
-n=int(input("enter the number of elements you want to enter:"))
-for i in range (n):
-    a= int (input("enter the elements :"))
-    t+=a,
-    print (t)'''
+'''# 8WAP TO ENTER THE MULTIPLE
+#  ELEMENT IN AN EMPTY TUPLE.
+t = ()
+n = int(input("enter the number of elements you want to\
+     enter:"))
+for i in range(n):
+    a = int(input("enter the elements :"))
+    t += a,
+    print(t)
+'''
 
 '''#9WAP TO ENTER THE FACTORIAL OF A NUMBER USING FUNCTION.
 
