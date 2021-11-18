@@ -84,17 +84,21 @@ for i in range (len(uns)):
 
 
 
-'''#6WAP TO INPUT THE TOTEL NUMBER OF SECTION IN CLASS 12TH AND DISPLAY ON THE OUTPUT SCREEN .
-class12th=()
+'''
+
+#6WAP TO INPUT THE TOTEL NUMBER OF SECTION IN CLASS 12TH AND DISPLAY ON THE OUTPUT SCREEN .
+class12th={}
 a=int(input("enter the no. of sections "))
 for i in range(a):
-    b = input("enter the section no.:")
-    c = input("enter the stream name")
-    class12th=c
-    print (class12th)
-    print ("class\t\t","section \t\t","stream name")
-    for j in class12th:
-        print("12th","\t\t",j,"\t\t",class12th(j))'''
+    b = input("enter the section no.: ")
+    c = input("enter the stream name.: ")
+    class12th[b]=c
+
+print ("class\t\t","section \t","stream name")
+    
+for j in class12th:
+    print("12th","\t\t",j,"\t\t",class12th[j])
+'''
 
  
 
