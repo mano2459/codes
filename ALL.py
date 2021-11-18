@@ -104,11 +104,12 @@ for j in class12th:
 
 
 
-'''#7WAP TO ENTER THE SINGLE ELEMENTS IN AN EMPTY TUPLE.
+'''# 7WAP TO ENTER THE SINGLE ELEMENTS IN AN EMPTY TUPLE.
 t = ()
-a = int (input("enter the element:"))
-t+= a,
-print (t)'''
+a = int(input("enter the element:"))
+t += a,
+print(t)
+'''
 
 '''# 8WAP TO ENTER THE MULTIPLE
 #  ELEMENT IN AN EMPTY TUPLE.
