@@ -11,6 +11,6 @@ while i <= e:
     i += 1
 l = d.keys()
 print("\ncountry\t\t", "capital\t", "currency")
-for i in l:
-    z = d[i]
-    print(i, "\t\t", d[i][0],"\t", d[i][1])
+for i in d:
+    
+    print(i, "\t\t", d[i][0],"\t\t", d[i][1])
